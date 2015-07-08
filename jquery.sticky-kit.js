@@ -253,7 +253,7 @@
       win.on("resize", recalc_and_tick);
       $(document.body).on("sticky_kit:recalc", recalc_and_tick);
       elm.on("sticky_kit:detach", detach);
-      return setTimeout(tick, 0);
+      return setTimeout(tick, 400);
     };
     for (i = 0, len = this.length; i < len; i++) {
       elm = this[i];
